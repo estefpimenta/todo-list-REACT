@@ -40,3 +40,51 @@ input {
 box-sizing: border-box;
 
 }
+
+button {
+  background-color: #404574;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #242742;
+}
+
+.complete {
+  background-color: #5cb85c;
+}
+
+.complete:hover {
+
+  background-color: #449d44;
+
+}
+
+.remove {
+
+  background-color: #e74c3c;
+}
+
+.remove:hover {
+
+  background-color: #c0392b;
+}
+
+.todo-form {
+
+  padding-bottom: 10px;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}

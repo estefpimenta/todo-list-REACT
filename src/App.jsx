@@ -1,4 +1,8 @@
 import { useState } from 'react'
+
+import Todo from './components/Todo.jsx'
+import TodoForm from './components/TodoForm.jsx'
+
 import './App.css'
 
 function App() {
@@ -19,7 +23,7 @@ function App() {
     {   
       id: 3,
       text: 'Criar funcionalidade "X" no sistema "Y"',
-      category: 'Pessoal',
+      category: 'Trabalho',
       isCompleted: false
     }
   ])
@@ -35,29 +39,13 @@ function App() {
 
         {todos.map((todo) =>(
 
-          <div className="todo">
-
-            <div className="content">
-
-              <p> {todo.text} </p>
-
-            </div>
-
-            <div className="category">
-              <p>( {todo.category} )</p>
-            </div>
-
-            <div>
-              <button>Completar</button>
-              <button>X</button>
-            </div>
-
-          </div>
-
+          <Todo todo={todo} />
 
         ))} 
         
       </div>
+
+      <TodoForm  />
 
     </div>
  
