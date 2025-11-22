@@ -27,6 +27,24 @@ function App() {
       isCompleted: false
     }
   ])
+  
+
+
+  const addTodo = (text, category) => {
+
+    const newTodos = [
+      ...todos, 
+      {
+        id: Math.floor(Math.random() * 1000),
+        text,
+        category,
+        isCompleted: false
+      }
+    ];
+    SetTodos(newTodos);  
+  }
+
+
 
   return (
 
@@ -39,13 +57,13 @@ function App() {
 
         {todos.map((todo) =>(
 
-          <Todo todo={todo} />
+          <Todo key={todo.id} todo={todo} />
 
         ))} 
         
       </div>
 
-      <TodoForm  />
+      <TodoForm  addTodo={addTodo} />
 
     </div>
  
