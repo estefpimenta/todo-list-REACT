@@ -8,11 +8,8 @@ const Todo = ({todo}) => {
             <div className="content">
 
               <p> {todo.text} </p>
+              <p className="category">( {todo.category} )</p>
 
-            </div>
-
-            <div className="category">
-              <p>( {todo.category} )</p>
             </div>
 
             <div>

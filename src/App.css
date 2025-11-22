@@ -48,12 +48,32 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-
+  margin-right: 10px;
   transition: 0.2s;
 }
 
 button:hover {
   background-color: #242742;
+}
+
+
+.todo-list {
+
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+  
+}
+
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .complete {
