@@ -5,7 +5,7 @@ Este projeto é uma aplicação de lista de tarefas desenvolvida como parte do m
 ---
 
 ## 📸 Preview  
-<img src="./src/assets/preview.png" width="400" alt="Preview do projeto">
+<img src="./src/images/preview.JPG" width="400" alt="Preview do projeto">
 
 ---
 
