@@ -1,17 +1,59 @@
-# React + Vite
+# 📝 Todo List — Projeto em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação de lista de tarefas desenvolvida como parte do meu aprendizado em **React** e para compor meu portfólio.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview  
+<img src="./src/assets/preview.png" width="400" alt="Preview do projeto">
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Objetivo do Projeto
 
-## Expanding the ESLint configuration
+Criar uma aplicação simples e funcional de lista de tarefas utilizando **React**, praticando conceitos essenciais como:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# todo-list-REACT
+- Componentização  
+- Estados e eventos  
+- Renderização condicional  
+- Manipulação de listas  
+- Organização de pastas e código
+
+O objetivo principal é reforçar a base do React enquanto desenvolvo um projeto real.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React + Vite**
+- **JavaScript (ES6+)**
+- **CSS3**
+- **Metodologia BEM para organização de classe**
+- **Hooks do React (useState)**
+
+---
+
+## 🧠 O que eu aprendi
+
+### ✔️ Fundamentos do React
+- Criação de componentes funcionais.
+- Utilização do **useState** para gerenciar tarefas.
+- Passagem de propriedades entre componentes.
+- Atualização de listas de forma imutável.
+
+### ✔️ Estruturação da Aplicação
+- Divisão da interface em blocos/componentes reutilizáveis.
+- Nomeação de classes CSS usando **BEM**, deixando o código mais claro e escalável.
+- Separação entre responsabilidades visuais e lógicas.
+
+---
+
+## 📚 Possíveis Melhorias Futuras
+
+- Implementar **persistência dos dados**.
+- Criar modo **dark/light**.
+- Adicionar animações nas transições de tarefas.
+- Responsividade
+
+---
+
